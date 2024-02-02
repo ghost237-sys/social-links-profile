@@ -1,0 +1,98 @@
+body{
+    width: 1440px;
+    background-color: hsl(0, 0%, 8%);
+    font-family:'Figtree', sans-serif;;   
+}
+
+.container{
+    width: 380px;
+    height: 640px;
+    margin: 45%;
+    background: hsl(0, 0%, 12%);
+    border-radius: 10px;
+
+}
+
+.img img{
+    border-radius: 50%;
+    margin-left: 110px;
+    width: 25%;
+    margin-top: 45px;
+}
+
+.image-section h1{
+    color: white;
+    margin-left: 80px;
+    font-size: 26px;
+    margin-bottom: 8px;
+}
+
+.image-section h2{
+    margin-top: 1px;
+    color: hsl(75, 94%, 57%);
+    margin-left: 90px;
+    font-size: 14px;
+}
+
+.image-section p{
+    margin-top: 25px;
+    color: white;
+    margin-left: 38px;
+    font-size: 14px;
+}
+
+.image-section{
+    margin-left: 40px;
+}
+
+
+button {
+    color: white;
+    width: 300px;
+    padding: 15px;
+    margin: 5px 30px 20px 40px ;
+    border-radius: 10px;
+    border: solid 0px black;
+    background-color: hsl(0, 0%, 20%);
+    font-weight: 600;
+    
+}
+
+button:hover{
+    color: black;
+    background-color: hsl(75, 94%, 57%);
+}
+
+
+
+@media only screen and (max-device-width:375px){
+    body{
+        width: 375px;
+    }
+
+    .container{
+        width: 350px;
+        height: 600px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    button{
+        margin-left: 20px;
+    }
+   
+.image-section h1{
+    color: white;
+    margin-left: 50px;
+    font-size: 26px;
+    margin-bottom: 8px;
+}
+
+.image-section h2{
+    margin-left: 60px;
+
+}
+
+.image-section p{
+   margin-left: 30px;  
+}
+}
